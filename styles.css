@@ -1,0 +1,8 @@
+/*
+Use margin & padding in a visually pleasing manner
+Use each of these selectors: element, class, id
+Use element selector to give <body> {margin: 8px & display: block}
+Give <heading> an #mainHeading id --- style it via id selector
+Give <p> an #testP & an .funParagraph --- style it via class selector
+link this stylesheet to your main document --- index.js
+*/
