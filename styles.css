@@ -1,20 +1,48 @@
 body {
-    margin: 8px;
-    display: block;
+  margin: 8px;
+  display: block;
+}
+
+section {
+  display: center;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
+}
+
+.hidden {
+  opacity: 0;
+  filter: blue(5px);
+  transform: translateX(-100%);
+  transition: all 1s;
+}
+
+@media (prefers-reduced-motion) {
+  .hidden {
+    transition: none;
+  }
+}
+
+.show {
+  opacity: 1;
+  filter: blue(0);
+  transform: translateX(0);
+}
+
+.logo:nth-child(2) {
+  transition-delay: 200ms;
+}
+
+
+
+.funParagraph {
 }
 
 #mainHeading {
-
 }
 
 #testP {
-
 }
-
-.funParagraph {
-
-}
-
 
 /*
 Use margin & padding in a visually pleasing manner
