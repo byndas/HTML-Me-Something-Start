@@ -3,7 +3,7 @@ body {
   display: block;
 }
 
-section {
+p {
   display: center;
   place-items: center;
   align-content: center;
@@ -36,9 +36,11 @@ section {
 
 
 .funParagraph {
+  color: green;
 }
 
 #mainHeading {
+  color: red;
 }
 
 #testP {

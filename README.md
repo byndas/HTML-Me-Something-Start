@@ -2,7 +2,7 @@
 
 ## Assignment Requirements
 
-For this assignment, you are asked to create a web page about yourself 
+For this assignment, you are asked to create a web page about yourself
 with the following criteria:
 
    1. Use Git to initialize and track a new project
@@ -18,8 +18,7 @@ will look different for every student.
 
 ### Grading Tests
 
-Despite it's subjective nature, this assignment contains a few tests. These tests are looking to be sure a you have submitted a repository that includes a number of HTML elements and 
-CSS rules defined in the instructions. 
+Despite it's subjective nature, this assignment contains a few tests. These tests are looking to be sure a you have submitted a repository that includes a number of HTML elements and CSS rules defined in the instructions.
 
 To run the tests, open up the directory for your assignment in your terminal and run the following command: `npm test`.
 
@@ -27,7 +26,7 @@ A passing assignment will have an output of: `7 passed, 7 total`.
 
 If you believe that you have done everything correctly and you are still not getting 7 passing specs, please reach out to your TA for assistance.
 
-Remember that these grading tests are just a starting point for your TA to start grading your work. 
+Remember that these grading tests are just a starting point for your TA to start grading your work.
 
 ### Beyond the Tests
 
@@ -37,7 +36,7 @@ After your TA runs the tests, they will be doing a code check to make sure that 
 1. Project content should be pushed to Github and you should have submitted the link to the remote repository on Canvas.
 1. If you complete the bonus mission, then the project is hosted on Github pages.
 1. In your HTML, you should have approximately 3 - 10 paragraphs and sections.
-1. You should also have at least one of each of the following: 
+1. You should also have at least one of each of the following:
 
    - `<p>`
    - `<header>`
@@ -58,3 +57,13 @@ After your TA runs the tests, they will be doing a code check to make sure that 
 1. Minimal, if any, document-level or inline style rules.
 
 When you are done with the assignment, submit the link to your Github repo on Canvas!
+
+
+
+
+//////////////////////////////////////////////////////////////////////////////////////////
+Grading Tests:
+    √ HTML has correct number of sections (3 - 10 child elements of body)
+    √ CSS body sets margin & display
+    √ CSS funParagraph class is green
+    √ CSS mainHeading id is red
