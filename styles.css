@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Lato");
-.--arrow-up {
+.arrow-up {
 	width: 0;
 	height: 0;
 	border-left: 40px solid transparent;
@@ -7,7 +7,7 @@
 	border-bottom: 55px solid #fb667a;
 }
 
-.--arrow-down {
+.arrow-down {
 	width: 0;
 	height: 0;
 	border-left: 40px solid transparent;
@@ -15,11 +15,11 @@
 	border-top: 55px solid #fb667a;
 }
 
-.--padding-top-sf {
+.padding-top {
 	padding-top: 65px;
 }
 
-.--padding-bottom-sf {
+.padding-bottom {
 	padding-bottom: 65px;
 }
 
@@ -32,6 +32,15 @@ body {
 	display: flex;
 	flex-direction: column;
 }
+
+.home header h1 {
+	width: 300px;
+	text-align: center;
+  }
+  
+  .home header h3 {
+	width: 300px;
+  }
 
 nav {
 	background-color: #fb667a;
