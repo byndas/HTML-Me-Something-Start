@@ -37,7 +37,7 @@ body {
 	width: 300px;
 	text-align: center;
   }
-  
+
   .home header h3 {
 	width: 300px;
   }
@@ -178,12 +178,12 @@ nav ul li a i {
 	text-align: center;
 	max-width: 500px;
 }
-.about .about-logo-collection {
+.about .about-logos {
 	margin-top: 30px;
 	display: flex;
 	flex-direction: column;
 }
-.about .about-logo-collection img {
+.about .about-logos img {
 	width: 90px;
 	height: 90px;
 	margin: 10px;
@@ -364,7 +364,7 @@ footer {
 	.about .about-paragraph {
 		padding: 10px 20px;
 	}
-	.about .about-logo-collection div {
+	.about .about-logos div {
 		text-align: center;
 	}
 
