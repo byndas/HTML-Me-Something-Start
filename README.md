@@ -49,7 +49,7 @@ After your TA runs the tests, they will be doing a code check to make sure that 
 1. In your HTML file, you should have no elements dictating style. Style rules should be applied with CSS selectors.
 1. In your CSS, they will check that you have appropriate use of both margin and padding.
 1. They will also check that you have style rules for at least one, hopefully more, of each selector type:
-   
+
    a. element
    b. class
    c. id

@@ -1,14 +1,14 @@
-const observer = new IntersectionObserver(entries => {
-    entries.forEach((entry) => {
-        console.log('entry:', entry);
-    });
-    if (entry.isIntersecting) {
-        entry.target.classList.add('show');
-    } else {
-        entry.classList.remove('show');
-    }
+const btnTab1 = document.getElementById('btn-tab1');
+const btnTab2 = document.getElementById('btn-tab2');
+const img1 = document.getElementById('gif1');
+const img2 = document.getElementById('gif2');
+
+btnTab1.addEventListener('click', function() {
+	img1.classList.remove('hidden');
+	img2.classList.add('hidden');
 });
 
-
-const hiddenTags = document.querySelectorAll(".hidden");
-hiddenTags.forEach(el => { observer.observe(el) });
+btnTab2.addEventListener('click', function() {
+	image1.classList.add('hidden');
+	image2.classList.remove('hidden');
+});
