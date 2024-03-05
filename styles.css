@@ -204,7 +204,7 @@ nav ul li a i {
 	font-size: 20px;
 	font-family: "Lato", sans-serif;
 }
-#projects .tabs {
+#projects #tabs {
 	display: flex;
 	justify-content: start;
 	align-items: center;
@@ -365,7 +365,7 @@ footer {
 		text-align: center;
 	}
 
-	#projects .tabs {
+	#projects #tabs {
 		margin-bottom: 40px;
 	}
 	#projects .tabs-item .box-image {
