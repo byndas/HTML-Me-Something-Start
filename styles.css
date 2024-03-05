@@ -36,11 +36,19 @@ body {
 .home header h1 {
 	width: 300px;
 	text-align: center;
-  }
+}
 
-  .home header h3 {
+.home header h3 {
 	width: 300px;
-  }
+}
+
+#mainHeading {
+	color: red;
+}
+
+.funParagraph {
+	color: green;
+}
 
 nav {
 	background-color: #fb667a;
