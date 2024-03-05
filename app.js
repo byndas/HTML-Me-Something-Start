@@ -9,6 +9,6 @@ btnTab1.addEventListener('click', function() {
 });
 
 btnTab2.addEventListener('click', function() {
-	image1.classList.add('hidden');
-	image2.classList.remove('hidden');
+	img1.classList.add('hidden');
+	img2.classList.remove('hidden');
 });
